@@ -5,11 +5,7 @@ import { Component, VERSION } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  
-
-  footer: string = 'pie página';
-}
+export class AppComponent {}
 
 //EJERCICIO 2:
 

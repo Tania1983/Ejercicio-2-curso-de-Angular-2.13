@@ -5,10 +5,19 @@ import { AppComponent } from './app.component';
 import { TopbannerComponent } from './topbanner/topbanner.component';
 import { LocationComponent } from './location/location.component';
 import { TempComponent } from './temp/temp.component';
+import { ClimaComponent } from './clima/clima.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [BrowserModule],
-  declarations: [AppComponent, TopbannerComponent, LocationComponent, TempComponent],
+  declarations: [
+    AppComponent,
+    TopbannerComponent,
+    LocationComponent,
+    TempComponent,
+    ClimaComponent,
+    FooterComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
